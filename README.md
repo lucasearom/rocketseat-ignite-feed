@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+<h1 align="center">Ignite Feed 📲</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📖 Descrição do projeto
 
-Currently, two official plugins are available:
+Este projeto é uma reprodução de uma aplicação que simula um feed de redes sociais desenvolvida em TypeScript utilizando o framework React. Ele permite adicionar, curtir e apagar comentários.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ⚙ Como rodar localmente
 
-## Expanding the ESLint configuration
+#### 1. Clone o repositório:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+git clone https://github.com/lucasearom/rocketseat-ignite-feed.git
+cd rocketseat-ignite-feed
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#### 2. Instale as dependências:
+
+```
+npm install
+```
+
+#### 3. Inicie a aplicação:
+
+```
+npm run dev
+```
+
+### 🛠 Tecnologias utilizadas
+
+-   TypeScript: Linguagem de programação para desenvolvimento web.
+-   React: Biblioteca JavaScript para construção de interfaces de usuário.
+-   React DOM: Biblioteca para manipulação do DOM em aplicações React.
+-   Vite: Ferramenta de construção para aplicações web.
+-   ESLint: Ferramenta de análise estática de código.
+
+### 🔋 Status do Projeto
+
+-   [x] Projeto concluído
